@@ -7,11 +7,11 @@ Inspired by the original [BCA Parser](http://www.randomlog.org/article/bca-parse
 
 To get started with IBanking, run this command or add the package to your `composer.json`
 
-    composer require rick20/ibanking
+    composer require arifr007/ibanking
 
 ## Configuration
 
-After installing the IBanking package, register the `Rick20\IBanking\IBankingServiceProvider` in your `config/app.php` file.
+After installing the IBanking package, register the `Arifr007\IBanking\IBankingServiceProvider` in your `config/app.php` file.
 Also, add the `IBanking` facade to the `aliases` array in your `app` configuration file:
 ```php
 'IBanking' => Rick20\IBanking\Facades\IBanking::class,
@@ -51,13 +51,13 @@ This means if you don't call the `logout()` method at the end of your codes, you
 
 You can stil use IBanking without Laravel. This is how:
 
-After running `composer require rick20/ibanking`, create a php file in your project folder and put the following codes
+After running `composer require arifr007/ibanking`, create a php file in your project folder and put the following codes
 
 ```php
 require 'vendor/autoload.php';
 
-use Rick20\IBanking\CrawlerParser;
-use Rick20\IBanking\Providers\BCAProvider;
+use Arifr007\IBanking\CrawlerParser;
+use Arifr007\IBanking\Providers\BCAProvider;
 
 $ibank = new BCAProvider(new CrawlerParser(), 'username', 'password');
 $ibank->login();
