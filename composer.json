@@ -1,5 +1,5 @@
 {
-    "name": "rick20/ibanking",
+    "name": "arifr007/ibanking",
     "description": "An automatic way to check the balance and received payment in your bank account.",
     "authors": [
         {
@@ -9,13 +9,13 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "nesbot/carbon": "1.21.*",
-        "guzzlehttp/guzzle": "~5.0|~6.0",
-        "symfony/dom-crawler": "3.1.*"
+        "nesbot/carbon": "^1.23",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "4.1.*"
     },
     "autoload": {
         "psr-4": {
-            "Rick20\\IBanking\\": "src/"
+            "Arifr007\\IBanking\\": "src/"
         }
     },
     "minimum-stability": "dev"
