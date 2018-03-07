@@ -1,7 +1,7 @@
 # IBanking Package for Laravel 5.6
 
 [![Laravel 5.6](https://img.shields.io/badge/laravel-5.6-orange.svg?style=flat-square)](http://laravel.com)
-[![Build Status](https://img.shields.io/badge/build-devmaster-lightgrey.svg?style=flat-square)](https://github.com/arifr007/ibanking)
+[![Build Status](https://img.shields.io/badge/build-v1.1.2-lightgrey.svg?style=flat-square)](https://github.com/arifr007/ibanking)
 [![Source](https://img.shields.io/badge/source-arifr007%2Fibanking-blue.svg?style=flat-square)](https://github.com/arifr007/ibanking)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
