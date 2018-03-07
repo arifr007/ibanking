@@ -1,15 +1,19 @@
 {
     "name": "arifr007/ibanking",
+    "type": "project",
     "description": "An automatic way to check the balance and received payment in your bank account.",
+    "keywords": ["ibanking","mandiri", "bca", "ibank", "mutasi", "saldo"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "Ricky",
-            "email": "lie.ricky@gmail.com"
+            "name": "Arif R",
+            "email": "r07.arif@gmail.com",
+            "homepage": "http://arifr007.me/",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "nesbot/carbon": "^1.23",
         "guzzlehttp/guzzle": "^6.3",
         "symfony/dom-crawler": "^4.0"
     },
