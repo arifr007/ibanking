@@ -11,12 +11,12 @@ This package allows you to crawl and parse your bank balance and statement. Curr
 
 To get started with IBanking, run this command or add the package to your `composer.json`
 ```php
-composer require arifr007/ibanking
+composer require "arifr007/ibanking:dev-master"
 ```
 
 ## Configuration
 
-After installing the IBanking package, simply add this classes to the `providers` array in your project's config/app.php file:
+After installing the IBanking package, simply add this classes to the `providers` array in your project's "config/app.php" file:
 ```php
 Arifr007\IBanking\IBankingServiceProvider::class
 ```
