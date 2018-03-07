@@ -84,7 +84,7 @@ The less you run it per day, the less chances you are being suspended by the int
 Please make any necessary effort to keep your ibank username and password safe and secure.
 Changing your password regularly can help to keep it more secure.
 
-### Issues
+## Issues
 
 > For bug reporting or code discussions.
 More info on how to work with GitHub on help.github.com.
@@ -93,7 +93,7 @@ More info on how to work with GitHub on help.github.com.
 
 Contributions are **welcome** and will be fully **credited**.
 
-### Credits
+## Credits
 
 > this project's base from [Rick20](https://github.com/Rick20/ibanking) iBanking and modified for compatibility to latest laravel 5.6.
 
