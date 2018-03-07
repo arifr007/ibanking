@@ -1,6 +1,6 @@
 <?php
 
-namespace Rick20\IBanking;
+namespace Arifr007\IBanking;
 
 use Illuminate\Support\Manager;
 
@@ -16,7 +16,7 @@ class IBankingManager extends Manager
         $config = $this->app['config']['services.bca'];
 
         return $this->buildProvider(
-            '\Rick20\IBanking\Providers\BCAProvider', $config
+            '\Arifr007\IBanking\Providers\BCAProvider', $config
         );
     }
 
@@ -25,7 +25,7 @@ class IBankingManager extends Manager
         $config = $this->app['config']['services.mandiri'];
 
         return $this->buildProvider(
-            '\Rick20\IBanking\Providers\MandiriProvider', $config
+            '\Arifr007\IBanking\Providers\MandiriProvider', $config
         );
     }
 
@@ -34,12 +34,12 @@ class IBankingManager extends Manager
      *
      * @param  string  $provider
      * @param  array  $config
-     * @return \Rick20\IBanking\Providers\AbstractProvider
+     * @return \Arifr007\IBanking\Providers\AbstractProvider
      */
     public function buildProvider($provider, $config)
     {
         return new $provider(
-            app('Rick20\IBanking\Contracts\Parser'),
+            app('Arifr007\IBanking\Contracts\Parser'),
             $config['username'], $config['password']
         );
     }

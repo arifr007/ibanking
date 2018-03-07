@@ -1,16 +1,16 @@
 <?php
 
-namespace Rick20\IBanking\Providers;
+namespace Arifr007\IBanking\Providers;
 
 use GuzzleHttp\Client;
-use Rick20\IBanking\Contracts\Parser;
+use Arifr007\IBanking\Contracts\Parser;
 
 abstract class AbstractProvider
 {
     /**
      * The Document Parser instance.
      *
-     * @var \Rick20\IBanking\Contracts\Parser
+     * @var \Arifr007\IBanking\Contracts\Parser
      */
     protected $parser;
 

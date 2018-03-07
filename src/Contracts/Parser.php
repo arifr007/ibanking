@@ -1,6 +1,6 @@
 <?php
 
-namespace Rick20\IBanking\Contracts;
+namespace Arifr007\IBanking\Contracts;
 
 interface Parser
 {
@@ -8,7 +8,7 @@ interface Parser
      * Set the parser with a string of document
      *
      * @param  string  $document
-     * @return \Rick20\IBanking\Contracts\Parser
+     * @return \Arifr007\IBanking\Contracts\Parser
      */
     public function make($document);
 
@@ -16,7 +16,7 @@ interface Parser
      * Parse the HTML page
      *
      * @param  string  $xpath
-     * @return \Rick20\IBanking\Contracts\Parser
+     * @return \Arifr007\IBanking\Contracts\Parser
      */
     public function parse($xpath);
 

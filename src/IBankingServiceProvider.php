@@ -1,8 +1,8 @@
 <?php
 
-namespace Rick20\IBanking;
+namespace Arifr007\IBanking;
 
-use Rick20\IBanking\Contracts\Parser;
+use Arifr007\IBanking\Contracts\Parser;
 use Illuminate\Support\ServiceProvider;
 
 class IBankingServiceProvider extends ServiceProvider
@@ -14,11 +14,11 @@ class IBankingServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Rick20\IBanking\Contracts\Parser', function ($app) {
+        $this->app->bind('Arifr007\IBanking\Contracts\Parser', function ($app) {
             return new CrawlerParser();
         });
 
-        $this->app->singleton('Rick20\IBanking\Contracts\Factory', function ($app) {
+        $this->app->singleton('Arifr007\IBanking\Contracts\Factory', function ($app) {
             return new IBankingManager($app);
         });
     }
@@ -30,6 +30,6 @@ class IBankingServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['Rick20\IBanking\Contracts\Factory'];
+        return ['Arifr007\IBanking\Contracts\Factory'];
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rick20\IBanking\Contracts;
+namespace Arifr007\IBanking\Contracts;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get an bank provider implementation.
      *
      * @param  string  $driver
-     * @return \Rick20\IBanking\Contracts\Provider
+     * @return \Arifr007\IBanking\Contracts\Provider
      */
     public function driver($driver = null);
 }

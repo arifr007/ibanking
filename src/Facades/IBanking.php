@@ -1,11 +1,11 @@
 <?php
 
-namespace Rick20\IBanking\Facades;
+namespace Arifr007\IBanking\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Rick20\IBanking\IBankingManager
+ * @see \Arifr007\IBanking\IBankingManager
  */
 class IBanking extends Facade
 {
@@ -16,6 +16,6 @@ class IBanking extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Rick20\IBanking\Contracts\Factory';
+        return 'Arifr007\IBanking\Contracts\Factory';
     }
 }

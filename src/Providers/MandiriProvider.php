@@ -1,9 +1,9 @@
 <?php
 
-namespace Rick20\IBanking\Providers;
+namespace Arifr007\IBanking\Providers;
 
 use Carbon\Carbon;
-use Rick20\IBanking\Contracts\Parser;
+use Arifr007\IBanking\Contracts\Parser;
 use Symfony\Component\DomCrawler\Crawler;
 
 class MandiriProvider extends AbstractProvider
