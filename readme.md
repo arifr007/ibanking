@@ -14,7 +14,7 @@ To get started with IBanking, run this command or add the package to your `compo
 After installing the IBanking package, register the `Arifr007\IBanking\IBankingServiceProvider` in your `config/app.php` file.
 Also, add the `IBanking` facade to the `aliases` array in your `app` configuration file:
 ```php
-'IBanking' => Rick20\IBanking\Facades\IBanking::class,
+'IBanking' => Arifr007\IBanking\Facades\IBanking::class,
 ```
 
 Finally add these lines to your `config/services.php` file:
